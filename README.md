@@ -39,3 +39,7 @@ Vegetable-Delivery/
 ├── package.json
 └── README.md
 
+
+### Live at this URL Links ###
+Live Demo: https://mehekt-git.github.io/Vegetable-Delivery/
+GitHub Repo: https://github.com/mehekT-git/Vegetable-Delivery
