@@ -1,0 +1,92 @@
+:root {
+    --background: #FFEEC8;
+    --text-color: rgb(37, 99, 37);
+}
+
+/* Remove overflow with global fix */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Content Styling */
+.header {
+    background-color: var(--background);
+}
+
+.menu-color {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header img {
+    width: 110px;
+    height: 40px;
+    max-width: 100%;
+}
+
+.hero-container {
+    background-color: var(--background);
+}
+
+.hero-text h1 span, 
+.hero-text p {
+    color: var(--text-color);
+}
+
+.delivery-process h2, 
+.healthy h2 {
+    color: var(--text-color);
+}
+
+.healthy-heading {
+  padding: 20px 10px; 
+}
+
+.healthy {
+    background-color: var(--background);
+}
+
+.slider {
+    background-image: url('../assets/Images/pumpkin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p1color {
+    background-color: rgb(214, 242, 251);
+}
+.p2color {
+    background-color: rgb(214, 246, 201);
+}
+.p3color {
+    background-color: rgb(237, 248, 215);
+}
+.p4color {
+    background-color: rgb(248, 238, 247);
+}
+.p5color {
+    background-color: rgb(235, 230, 246);
+}
+
+.p-Image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background-image: url('../assets/Images/footerbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
